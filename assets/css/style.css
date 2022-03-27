@@ -8,6 +8,7 @@ body {
     background-color: #d9dcd6;
 }
 
+/* Removed the "." before header as this is a Semantic element and not a class */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +16,20 @@ header {
     color: #ffffff;
 }
 
+/* Removed the "." before header as this is a Semantic element and not a class */
 header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Removed the "." before header as this is a Semantic element and not a class 
+    Removed the ".seo" class and referenced the Span attribute instead */
 header h1 span{
     color: #d9dcd6;
 }
 
+/* Removed the "." before header as this is a Semantic element and not a class 
+   Renamed the div to nav so that it would be a Semantic element */
 header nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -32,10 +38,14 @@ header nav {
     font-size: 20px;
 }
 
+/* Removed the "." before header as this is a Semantic element and not a class 
+   Renamed the div to nav so that it would be a Semantic element */
 header nav ul {
     list-style-type: none;
 }
 
+/* Removed the "." before header as this is a Semantic element and not a class 
+   Renamed the div to nav so that it would be a Semantic element */
 header nav ul li {
     display: inline-block;
     margin-left: 25px;
@@ -80,28 +90,34 @@ p {
     background-color: #2589bd;
 }
 
+/* Condensed lead, brand and cost into this rule  */
 .benefit-content {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* Condensed lead, brand and cost into this rule  */
 .benefit-content h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* Condensed lead, brand and cost into this rule  */
 .benefit-content img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* Applied this rule to a section that encapsulated the following three divs instead of applying to each individually 
+    Moved this section closer to it's related rules */
 .services {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* Condensed the three styling rules for this section into a single CSS rule */
 .services-content {
     margin-bottom: 20px;
     padding: 50px;
@@ -111,10 +127,12 @@ p {
     color: #ffffff;
 }
 
+/* Condensed the three img styling for this section into a single CSS rule */
 .services-content img {
     max-height: 200px;
 }
 
+/* Condensed the three h2 styling for this section into a single CSS rule */
 .services-content h2 {
     margin-bottom: 20px;
     font-size: 36px;
